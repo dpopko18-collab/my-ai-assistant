@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My AI Assistant</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+
+                <h2>My AI</h2>
+
+                <button
+                    id="newChatButton"
+                    class="new-chat"
+                >
+                    + New Chat
+                </button>
+
+            </div>
+
+            <div
+                id="chatHistory"
+                class="chat-history"
+            >
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CHAT -->
+
+        <main class="main">
+
+            <header class="topbar">
+
+                <div>
+
+                    <h1>AI Assistant</h1>
+
+                    <span
+                        id="status"
+                        class="status"
+                    >
+                        ● Online
+                    </span>
+
+                </div>
+
+            </header>
+
+
+            <!-- MESSAGES -->
+
+            <section
+                id="messages"
+                class="messages"
+            >
+
+                <div class="welcome">
+
+                    <h2>How can I help?</h2>
+
+                    <p>
+                        Ask me anything.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- INPUT -->
+
+            <div class="input-container">
+
+                <form id="chatForm">
+
+                    <textarea
+                        id="messageInput"
+                        placeholder="Message your AI..."
+                        rows="1"
+                    ></textarea>
+
+                    <button
+                        id="sendButton"
+                        type="submit"
+                    >
+                        Send
+                    </button>
+
+                </form>
+
+                <p class="disclaimer">
+                    AI can make mistakes. Check important information.
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
