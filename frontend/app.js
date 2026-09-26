@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000";
+const API_URL = https://github.com/dpopko18-collab/my-ai-assistant
 
 let conversationId = crypto.randomUUID();
 
